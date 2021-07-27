@@ -1,0 +1,69 @@
+{
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    //
+    "files.eol": "\n",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    //
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.renderWhitespace": "all",
+    "editor.renderControlCharacters": true,
+    "editor.smoothScrolling": true,
+    "editor.suggest.snippetsPreventQuickSuggestions": false,
+    "editor.semanticHighlighting.enabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    },
+    "editor.quickSuggestions": {
+        "other": true,
+        "comments": true,
+        "strings": true
+    },
+    //
+    "explorer.sortOrder": "type",
+    //
+    "workbench.fontAliasing": "auto",
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.highlightModifiedTabs": true,
+    //
+    "git.ignoreLimitWarning": true,
+    //
+    // "todo-tree.general.statusBar": "tags",
+    "todo-tree.general.showIconsInsteadOfTagsInStatusBar": true,
+    "todo-tree.highlights.enabled": true,
+    "todo-tree.highlights.useColourScheme": true,
+    "todo-tree.regex.enableMultiLine": true,
+    "todo-tree.tree.disableCompactFolders": false,
+    "todo-tree.tree.showBadges": true,
+    "todo-tree.tree.showCountsInTree": true,
+    "todo-tree.tree.buttons.scanMode": true,
+    "todo-tree.filtering.excludeGlobs": [
+        "**/node_modules",
+        // custom
+        "**/settings.json",
+    ],
+    "todo-tree.general.tags": [
+        "BUG",
+        "HACK",
+        "FIXME",
+        "TODO",
+        "XXX",
+        // custom
+        "ISSUE",
+    ],
+    //
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        // custom
+        ".vscode": false,
+    },
+}
