@@ -9,7 +9,7 @@
 
 <body>
     Holi
-    <img id='image' src='images/person.jpg' crossorigin='anonymous' />
+    <img id='image' src='https://t4.ftcdn.net/jpg/03/83/25/83/360_F_383258331_D8imaEMl8Q3lf7EKU2Pi78Cn0R7KkW9o.jpg' crossorigin='anonymous' />
 </body>
 <!-- Place your code in the script tag below. You can also use an external .js file -->
 <script>
@@ -27,7 +27,7 @@
          * See documentation below for details on each method.
          */
         const segmentation = await net.segmentPerson(img);
-        console.log(segmentation);
+        console.log("Segmentation: ", segmentation);
     }
     loadAndPredict();
 </script>
