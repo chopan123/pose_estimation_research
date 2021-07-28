@@ -1,5 +1,6 @@
 {
     "recommendations": [
+        // NOTE: If you haven't installed ESLint either locally or globally do so by running npm install eslint in the workspace folder for a local install or npm install -g eslint for a global install.
         "dbaeumer.vscode-eslint",
         "esbenp.prettier-vscode",
         "github.vscode-pull-request-github",

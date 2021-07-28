@@ -1,11 +1,13 @@
 {
     "[javascript]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
     "[html]": {
         // "editor.defaultFormatter": "vscode.html-language-features",
         "editor.defaultFormatter": "esbenp.prettier-vscode",
     },
+    "eslint.alwaysShowStatus": true,
+    "eslint.lintTask.enable": true,
     //
     "files.eol": "\n",
     "files.insertFinalNewline": true,
@@ -23,7 +25,8 @@
     "editor.suggest.snippetsPreventQuickSuggestions": false,
     "editor.semanticHighlighting.enabled": true,
     "editor.codeActionsOnSave": {
-        "source.organizeImports": true
+        "source.organizeImports": true,
+        "source.fixAll.eslint": true,
     },
     "editor.quickSuggestions": {
         "other": true,
