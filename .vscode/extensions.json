@@ -7,5 +7,6 @@
         "eamodio.gitlens",
         "ibm.output-colorizer",
         "gruntfuggly.todo-tree",
+        "vscode-icons-team.vscode-icons",
     ]
 }
