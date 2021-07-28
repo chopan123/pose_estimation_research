@@ -1,0 +1,29 @@
+{
+    "configurations": [
+        // {
+        //     "name": "Attach to Chrome",
+        //     "port": 9222,
+        //     "request": "attach",
+        //     "type": "pwa-chrome",
+        //     "webRoot": "${workspaceFolder}"
+        // },
+        {
+            "type": "pwa-chrome",
+            "name": "Attach to bodypix.html",
+            "request": "launch",
+            "url": "file:///${workspaceFolder}/bodypix.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "Attach to index.html",
+            "request": "launch",
+            "url": "file:///${workspaceFolder}/index.html"
+        },
+        {
+            "type": "pwa-chrome",
+            "name": "playground",
+            "request": "launch",
+            "url": "file:///${workspaceFolder}/src/index.html"
+        }
+    ]
+}
