@@ -76,6 +76,11 @@ const CustomMobileNetV1Config = {
   modelUrl: null,
 }
 
+// function preload() {
+//   // Ensure this objects are loaded before setup() and draw() are called
+//   // NOTE: we should probably load the model here
+// }
+
 // const options = CustomResNet50Config;
 const options = CustomMobileNetV1Config
 console.log(options)
