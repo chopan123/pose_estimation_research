@@ -11,6 +11,7 @@
         // "prettier"
         "plugin:prettier/recommended"
     ],
+    "root": true,
     "rules": {
         "no-console": "off"
     }
