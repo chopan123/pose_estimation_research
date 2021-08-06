@@ -81,8 +81,8 @@ const CustomMobileNetV1Config = {
 //   // NOTE: we should probably load the model here
 // }
 
-// const options = CustomResNet50Config;
-const options = CustomMobileNetV1Config
+const options = CustomResNet50Config
+// const options = CustomMobileNetV1Config
 console.log(options)
 
 function setup() {
